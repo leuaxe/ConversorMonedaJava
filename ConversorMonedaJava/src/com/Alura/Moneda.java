@@ -16,7 +16,6 @@ public class Moneda {
 				JOptionPane.QUESTION_MESSAGE, null, opciones, opciones[0]);
 		
 		boolean continuarPrograma = true;
-		//String cantidad = JOptionPane.showInputDialog(null, "Ingrese cantidad de dinero que deseas convertir:");
 		double soles = 0;
 		DecimalFormat df = new DecimalFormat("#.00");
 		do {
